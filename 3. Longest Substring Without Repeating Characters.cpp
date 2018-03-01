@@ -1,8 +1,8 @@
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
-        char appear[255] = {0}; /*记录字符出现情况*/
-        int position[255]; /*记录字符出现位置*/
+        char appear[256] = {0}; /*记录字符出现情况*/
+        int position[256]; /*记录字符出现位置*/
         int len = s.length();
         int max = 0;
         int sublen = 0;
