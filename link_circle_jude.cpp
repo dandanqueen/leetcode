@@ -17,7 +17,7 @@ public:
         p2 = head->next;
         while(p1->next && p2->next){
         	if(p1->next->next == NULL){
-        		break;
+        		break;	
         	}
         	if(p1 == p2 || p1->next == p2){
         		return true;
